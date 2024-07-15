@@ -1,0 +1,116 @@
+@media (max-width: 1024px) {
+  .skills-logo {
+    width: 70px;
+    transition: all 0.5s;
+    height: auto;
+    object-fit: contain;
+  }
+  .user-image{
+    padding: 1rem;
+  }
+  .hero-section{
+    flex-direction: column;
+  }
+  .hero-section-left{
+    align-items: center;
+  }
+  .faded-text {
+    bottom: -47px;
+    font-size: 5em;
+}
+.hero-section-sub-heading {
+    text-align: center;
+  }
+}
+
+@media (max-width: 810px) {
+    .logo-text{
+        font-size: 23px;
+    }
+    .nav-items div {
+        font-size: 18px;
+    }
+    .hero-section-sub-heading {
+        text-align: center;
+      }
+}
+
+@media (max-width: 728px) {
+    .skills-logo {
+        width: 50px;
+      }
+    .skill-container-right{
+        gap: 1rem;
+    }
+    .logo-text{
+        font-size: 16px;
+    }
+    .nav-items div a{
+        font-size: 16px;
+    }
+    .logo-container img {
+        width: 30px;
+        height: auto;
+    }
+    .hero-section-sub-heading {
+        text-align: center;
+      }
+}
+
+
+/* mobile */
+@media (max-width: 660px) {
+    .navbar{
+        flex-direction: column ;
+        gap: 1rem;;
+    }
+    .nav-items {
+        padding: 0 1em;
+    }
+    .faded-text {
+        bottom: -38px;
+        font-size: 3em;
+    }
+    .user-image img {
+        height: 290px;
+        width: auto;
+    }
+    .container{
+        padding: 10px 5%;
+    }
+    .skills-logo {
+        width: 50px;
+      }
+    .skill-container-right{
+        gap: 1rem;
+    }
+    .logo-text{
+        font-size: 16px;
+    }
+    .nav-items div a{
+        font-size: 16px;
+    }
+    .logo-container img {
+        width: 30px;
+        height: auto;
+    }
+    .hero-section-sub-heading {
+        text-align: center;
+        font-size: 35px;
+      }
+    .skills-container{
+        flex-direction: column;
+        padding: 3rem;
+        align-items: center;
+    }
+    .skill-container-left {
+        width: 100%;
+        text-align: center;
+    }
+    .container h2{
+        font-size: 3rem!important;
+    }
+    .container h3{
+        font-size: 1.8rem !important;
+    }
+}
