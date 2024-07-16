@@ -378,15 +378,18 @@ a {
   position: absolute;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start !important; */
-  
+  justify-content: center !important;
+  align-items: flex-start;
+  /* background-color: red; */
+  width: 50%;
+  height: 60%;
   color: white;
   padding: 2rem;
   bottom: 20%;
   z-index: 5;
   gap: 1em;
   transition: all 0.4s;
-  margin-left: 50px;
+  
 }
 
 
